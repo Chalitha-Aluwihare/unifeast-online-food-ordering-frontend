@@ -1,3 +1,17 @@
+.embla {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .embla__container {
+    display: flex;
+  }
+  
+  .embla__slide {
+    position: relative;
+    min-width: 100%; /* Ensure each slide takes full width */
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
